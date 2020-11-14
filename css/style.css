@@ -1,0 +1,193 @@
+/*
+ * Globals
+ */
+
+
+  .bg-color{
+    background-color: #232639
+  }
+
+
+
+ body {
+    font-family: "HK Grotesk";
+    color: #444444;
+    letter-spacing: 0.1px;
+  }
+
+  p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    color: white;
+
+  }
+
+
+/* Start of Nav-Bar */
+
+  .nav-item{
+    padding: 0px 20px;
+  }
+
+  .nav-link { 
+    font-family: "HK Grotesk" , sans-serif;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+  }
+
+  .nav-link:hover{
+    color: #ffc576;
+    cursor: pointer; 
+  }
+
+  /* End of Nav-Bar */
+
+
+/* Start of top-title */
+
+.top-title{
+
+  font-family: "HK Grotesk" , sans-serif;
+ 
+
+}
+
+.title-banner{
+  font-size: 90px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+@media(max-width: 1024px)
+{
+.title-banner{
+  font-size: 60px;
+  line-height: 70px;
+}
+
+}
+
+.container-lg-textbox{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.textbox-row{
+  padding: 200px 15px 200px 15px;
+  
+}
+
+.lg-textbox{
+  font-size: 40px;
+  color:  #ffc576;
+  font-weight: 500;
+}
+
+.md-textbox{
+  font-size: 14px;
+  color: #ffc576;
+  font-weight: 600;
+}
+
+
+/* End of top-title */
+
+
+/* Start of feature-box */
+.feature-box{
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #ffc57666;
+  padding: 20px;
+  transition-duration: 0.3s;
+}
+
+.feature-box:hover{
+  border-color:  #ffc576;
+}
+
+.feature-title{
+  transition-duration: 0.3s;
+}
+
+.feature-box:last-child{
+  margin-bottom: 50px;
+
+}
+
+/* End of feature-box */
+
+
+/* Start of social-box */
+.social-box{
+  border-style: solid;
+  border-color: #ffc576;
+  border-radius: 7px;
+  border-width: 1px 1px 1px 1px;
+  padding:  20px;
+  transition-duration: 0.8s;
+  margin-bottom: 50px;
+}
+
+
+
+
+.social-title{
+
+}
+
+.social-icon{
+  width: 50px;
+  line-height: 50px;
+}
+/* End of social-box */
+
+
+
+/* Start of chat-txt */
+
+.chat-txt{
+  
+  color: white;
+  background-color: rgba(0,0,0,0);
+  width: 100%;
+  line-height: normal;
+  padding: 18px;
+  border-radius: 5px;
+  border-image-repeat: stretch;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
+
+.chat-txt:last-child{
+  
+}
+
+
+.chat-txt:focus {
+  
+  outline:none;
+  border-color: #ffc576;
+
+}
+
+/* End of chat-txt */
